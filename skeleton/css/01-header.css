@@ -1,0 +1,59 @@
+/* PHASE 1: Header */
+body {
+  font-weight: 300, 400, 700;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.header {
+  color: #fff;
+}
+
+.header-nav {
+  background: #f00;
+  position: fixed;
+
+  width: 100%;
+  /*padding: 0 65px;
+  box-sizing: border-box;*/
+}
+
+.header-logo {
+  float: left;
+  border: 1px #fff;
+  border-right-style: solid;
+  border-left-style: solid;
+  margin: 0px 0px 0px 65px;
+  padding: 10px 20px;
+}
+
+.header-list {
+  /*display: inline-block;*/
+  float: right;
+  margin: 0px 65px 0px 0px;
+}
+
+.header-list > li {
+  float: left;
+  /*display: block;*/
+  border: 1px #fff;
+  border-right-style: solid;
+  border-left-style: solid;
+  padding: 10px 20px;
+  margin: 0 auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  cursor: pointer;
+}
+
+li:nth-child(2) {
+  border: none;
+}
+
+li:hover {
+  background-color: #000;
+}
+
+.header-logo:hover {
+  background-color: #000;
+}
